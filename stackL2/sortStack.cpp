@@ -1,3 +1,8 @@
+#include<iostream>
+#include<stack>
+
+using namespace std;
+
 void sortedInsert(stack<int> &stack, int num) {
     //base case
     if(stack.empty() || (!stack.empty() && stack.top() < num) ) {
